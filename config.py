@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7297484344:AAHdNUScmStTooJXMRJMs2zvQGFzKYD9E7A")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6714018032:AAFXXme2hbRg2g4MrQvWpcMOx2Rxb2-44do")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "24213496"))
@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "460587b3c127073be75378abec90ff56")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002035889639"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "hakani")
+OWNER = os.environ.get("OWNER", "hambasahaya")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -39,8 +39,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://avnadmin:AVNS_o-3lH2hqAp9G6yde4C_@tgbt-dafasanakuryani-7784.e.aivencloud.com:14790/defaultdb?sslmode=require")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002088793491"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001827145694"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002109252119"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002047713902"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -57,7 +57,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
+    "<b>ʜᴇʟʟᴏ !! {first} ᴀɴᴅᴀ ʜᴀʀᴜꜱ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ ᴀɢᴀʀ ᴅᴀᴘᴀᴛ ᴍᴇɴᴏɴᴛᴏɴ ᴠɪᴅᴇᴏ !!</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
